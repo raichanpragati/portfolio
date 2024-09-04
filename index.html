@@ -1,199 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio Website - Pragati Rai</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Pragati Rai</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
 
-        <link rel="stylesheet" href="style.css">
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Pragati Rai</span><br> Problem Solver <br>Unbeatable</h1>
+                <a href="#contact" class="button">Contact</a>
+            </div>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/pragati-rai-518209237/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/raichanpragati" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="https://youtube.com/@pragatiraichan?si=OZS52_fLcgUL8ta0" class="home__social-icon"><i class='bx bxl-youtube'></i></a>
+            </div>
+            <div class="home__img">
+                <img src="profileI.jpg" alt="Pragati Rai">
+            </div>
+        </section>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
-        <title>Portfolio website complete</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="p.jpg" alt="About Pragati">
+                </div>
                 <div>
-                    <a href="#" class="nav__logo">Pragati Rai</a>
+                    <h2 class="about__subtitle">I'm Pragati Rai</h2>
+                    <p class="about__text">I'm Pragati Rai, a dedicated problem solver fascinated by the intricacies of software development. My expertise lies in Data Structures and Algorithms, steering my journey towards becoming a Software Development Engineer. I specialize in frontend technologies and have recently ventured into the MERN stack. I'm driven by the challenge of crafting effective solutions and aspire to leave a significant impact in the realm of software engineering. In addition to my technical pursuits, I am also a professional dancer and content creator. Balancing my passion for technology with the discipline and creativity of dance has enriched my perspective and enhanced my ability to think creatively and work diligently. As a content creator, I manage a YouTube channel with over 2K subscribers, sharing insights and knowledge with a growing community. This unique combination of skills allows me to approach problems with a fresh, innovative mindset and a commitment to excellence in all my endeavors.</p>
                 </div>
+            </div>
+        </section>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Pragati Rai</span><br> Problem Solver <br>Unbeatable </h1>
-
-                    <a href="#" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/pragati-rai-518209237/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/raichanpragati" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a href="https://youtube.com/@pragatiraichan?si=OZS52_fLcgUL8ta0" class="home__social-icon"><i class='bx  bx-right-arrow'></i></a>
-                </div>
-
-                <div class="home__img">
-                    <div class="home__img">
-    <img src="profileI.jpg" alt="Pragati Rai">
-</div>
-
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="about.jpg" >
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bd-grid">
+                <div class="skills__block">
+                    <div class="skills__names">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">HTML</span>
                     </div>
-                    <div>
-                        <h2 class="about__subtitle">I'am Pragati Rai</h2>
-                        <p class="about__text">I'm Pragati Rai, a dedicated problem solver fascinated by the intricacies of software development. My expertise lies in Data Structures and Algorithms, steering my journey towards becoming a Software Development Engineer. I specialize in frontend technologies and have recently ventured into the MERN stack. I'm driven by the challenge of crafting effective solutions and aspire to leave a significant impact in the realm of software engineering.<br><br>In addition to my technical pursuits, I am also a professional dancer and content creator. Balancing my passion for technology with the discipline and creativity of dance has enriched my perspective and enhanced my ability to think creatively and work diligently. As a content creator, I manage a YouTube channel with over 2K subscribers, sharing insights and knowledge with a growing community. This unique combination of skills allows me to approach problems with a fresh, innovative mindset and a commitment to excellence in all my endeavors.
-
-                           <br><br><br> Let's connect and explore opportunities to innovate and make a meaningful impact together!
-                            
-                            
-                            
-                            
-                            
-                            
-                            </p>           
-                    </div>                                   
                 </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-<section class="skills section" id="skills">
-    <h2 class="section-title">Skills</h2>
-
-    <div class="skills__container bd-grid">
-        <div></div>
-        <div>
-            <h2 center class="skills__subtitle">Professional Skills</h2>
-        </div>
-        <div></div>
-        <div class="skills__block">
-            <div class="skills__names">
-                <i class='bx bxl-html5 skills__icon'></i>
-                <span class="skills__name">HTML</span>
+                <div class="skills__block">
+                    <div class="skills__names">
+                        <i class='bx bxl-css3 skills__icon'></i>
+                        <span class="skills__name">CSS</span>
+                    </div>
+                </div>
+                <div class="skills__block">
+                    <div class="skills__names">
+                        <i class='bx bxl-javascript skills__icon'></i>
+                        <span class="skills__name">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skills__block">
+                    <div class="skills__names">
+                        <i class='bx bxl-c-plus-plus skills__icon'></i>
+                        <span class="skills__name">C++</span>
+                    </div>
+                </div>
+                <div class="skills__block">
+                    <div class="skills__names">
+                        <i class='bx bxs-paint skills__icon'></i>
+                        <span class="skills__name">DSA</span>
+                    </div>
+                </div>
+                <div class="skills__block">
+                    <div class="skills__names">
+                        <i class='bx bxs-paint skills__icon'></i>
+                        <span class="skills__name">Problem Solving</span>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="skills__block">
-            <div class="skills__names">
-                <i class='bx bxl-css3 skills__icon'></i>
-                <span class="skills__name">CSS</span>
-            </div>
-        </div>
-        <div class="skills__block">
-            <div class="skills__names">
-                <i class='bx bxl-javascript skills__icon'></i>
-                <span class="skills__name">JavaScript</span>
-            </div>
-        </div>
-        <div class="skills__block">
-            <div class="skills__names">
-                <i class='bx bxs-paint skills__icon'></i>
-                <span class="skills__name">CPP programming</span>
-            </div>
-        </div>
-    </div>
-    <div class="skills__block">
-        <div class="skills__names">
-            <i class='bx bxs-paint skills__icon'></i>
-            <span class="skills__name">DSA</span>
-        </div>
-    </div>
-</div>
-<div class="skills__block">
-    <div class="skills__names">
-        <i class='bx bxs-paint skills__icon'></i>
-        <span class="skills__name">Problem Solving</span>
-    </div>
-</div>
-        <!-- Add more skill blocks here -->
-    </div>
-</section>
-
+        </section>
 
         <!--===== CERTIFICATES =====-->
-            <section class="certificates section" id="certificates">
-                <h2 class="section-title">Certificates</h2>
-            
-                <div class="certificates__container bd-grid">
-                    <a href="https://drive.google.com/file/d/1NitXATzFeJG13QSzXdz4KjQiW6jxXpgC/view?usp=sharing" class="certificates__img">
-                        <div>Data Structure and Algorithms (Udemy Verified)</div>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1rpMbR12dvOqVyjtg30477wK9t0LEy1y3/view?usp=sharing" class="certificates__img">
+        <section class="certificates section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificates__container bd-grid">
+                <a href="https://drive.google.com/file/d/1NitXATzFeJG13QSzXdz4KjQiW6jxXpgC/view?usp=sharing" class="certificates__img" target="_blank">
+                    <div>Data Structure and Algorithms (Udemy Verified)</div>
+                </a>
+                <a href="https://drive.google.com/file/d/1rpMbR12dvOqVyjtg30477wK9t0LEy1y3/view?usp=sharing" class="certificates__img" target="_blank">
                     <div>Certificate of Internship Completion</div>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1tDzLFCw2kXT1GCPQA3DTfZXwRSCj2Hd0/view?usp=sharing" class="certificates__img">
-                        <div>Certificate of course completion</div>
-                    </a>
-                    
-                </div>
-            </section>
-
-            <!--===== RESUME =====-->
-            <section class="resume section" id="resume">
-                <h2 class="section-title">Resume</h2>
-
-                <div class="resume__container bd-grid">
-                    <a href="https://drive.google.com/file/d/1y0cSMP4nwr2zBcnh8d7c_xnLR8qi8e6y/view?usp=sharing" target="_blank" class="resume__link">Download Resume</a>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Pragati Rai</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/raichanpragati?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
-                " class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                </a>
+                <a href="https://drive.google.com/file/d/1tDzLFCw2kXT1GCPQA3DTfZXwRSCj2Hd0/view?usp=sharing" class="certificates__img" target="_blank">
+                    <div>Certificate of Course Completion</div>
+                </a>
             </div>
-            <p class="footer__copy">&#169;  All rigths reserved</p>
-        </footer>
+        </section>
 
+        <!--===== RESUME =====-->
+        <section class="resume section" id="resume">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume__container bd-grid">
+                <a href="https://drive.google.com/file/d/1y0cSMP4nwr2zBcnh8d7c_xnLR8qi8e6y/view?usp=sharing" target="_blank" class="resume__link">Download Resume</a>
+            </div>
+        </section>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input" required>
+                    <input type="email" placeholder="Email" class="contact__input" required>
+                    <textarea placeholder="Your Message" class="contact__input" rows="10" required></textarea>
+                    <input type="submit" value="Submit" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
-</html>
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Pragati Rai</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/raichanpragati" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">&#169; All rights reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--=====
